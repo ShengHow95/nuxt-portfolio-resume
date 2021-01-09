@@ -2,7 +2,7 @@
   <div>
     <v-row justify="center">
       <v-img
-        src="profile.jpg"
+        src="profile.webp"
         class="rounded-circle glowingBorder"
         style="margin: 75px 0 25px 0"
         max-width="200px"

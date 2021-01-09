@@ -67,7 +67,7 @@ export default {
       rgba(255, 255, 255, 0.08),
       rgba(255, 255, 255, 0.08)
     ),
-    url('/background.jpg');
+    url('/background.webp');
   background-size: cover;
   margin-bottom: 30px;
 }
