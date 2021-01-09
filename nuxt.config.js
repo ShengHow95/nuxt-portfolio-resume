@@ -113,4 +113,11 @@ export default {
       return { x: 0, y: 0 }
     },
   },
+  render: {
+    bundleRenderer: {
+      shouldPreload: (file, type) => {
+        return ['script', 'style', 'font'].includes(type)
+      },
+    },
+  },
 }
