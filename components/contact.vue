@@ -28,7 +28,7 @@ export default {
       },
       {
         icon: 'mdi-whatsapp',
-        tooltip: '+(65)-8499-7879',
+        tooltip: '+(60)-10773-0589',
         link: 'https://wa.me/60107730589',
       },
       {
