@@ -15,13 +15,15 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
+        as: 'style',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap',
         type: 'text/css',
       },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
+        as: 'style',
         href:
           'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
         type: 'text/css',
@@ -111,13 +113,6 @@ export default {
       }
 
       return { x: 0, y: 0 }
-    },
-  },
-  render: {
-    bundleRenderer: {
-      shouldPreload: (file, type) => {
-        return ['script', 'style', 'font'].includes(type)
-      },
     },
   },
 }
