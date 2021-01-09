@@ -105,21 +105,4 @@ export default {
 #contact {
   margin-top: 30px;
 }
-
-@-webkit-keyframes glow {
-  to {
-    border-color: #ffffff;
-    -webkit-box-shadow: 0 0 20px #ffffff;
-    -moz-box-shadow: 0 0 20px #ffffff;
-    box-shadow: 0 0 20px #ffffff;
-  }
-}
-
-.glowingBorder {
-  border: none;
-  -webkit-animation: glow 1s infinite alternate;
-  -webkit-transition: border 1s linear, box-shadow 1s linear;
-  -moz-transition: border 1s linear, box-shadow 1s linear;
-  transition: border 1s linear, box-shadow 1s linear;
-}
 </style>
