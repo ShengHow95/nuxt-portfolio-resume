@@ -12,23 +12,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'preload',
-        as: 'style',
-        href:
-          'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap',
-        type: 'text/css',
-      },
-      {
-        rel: 'preload',
-        as: 'style',
-        href:
-          'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
-        type: 'text/css',
-      },
-    ],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -54,6 +38,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-webfontloader',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -113,6 +98,12 @@ export default {
       }
 
       return { x: 0, y: 0 }
+    },
+  },
+
+  webfontloader: {
+    google: {
+      families: ['Roboto:100,300,400,500,700,900'],
     },
   },
 }
