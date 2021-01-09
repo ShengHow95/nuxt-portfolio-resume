@@ -1,0 +1,24 @@
+<template>
+  <v-container>
+    <v-card>
+      <v-card-title class="justify-center font-weight-bold">
+        <v-icon large color="white">mdi-account</v-icon>
+        &nbsp; ABOUT ME
+      </v-card-title>
+      <v-card-text
+        class="text-subtitle-1 text-center grey--text text--lighten-1"
+      >
+        Passionate to explore and learn about technologies. Data science is a
+        field which I am interested in and would like to further explore and
+        learn more about it. I also like to join community service activities
+        and play board games.
+      </v-card-text>
+    </v-card>
+  </v-container>
+</template>
+
+<script>
+export default {
+  methods: {},
+}
+</script>
