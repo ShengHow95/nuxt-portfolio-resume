@@ -19,7 +19,7 @@
       justify="center"
       class="text-h5 white--text text-center font-weight-bold ma-5"
     >
-      Full Stack Developer
+      Software Engineer
     </v-row>
     <v-row justify="center" class="ma-10">
       <v-btn
