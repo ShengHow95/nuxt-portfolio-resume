@@ -27,6 +27,7 @@
                     :href="achievement.link"
                     target="_blank"
                     :disabled="achievement.disabled"
+                    rel="noreferrer"
                   >
                     <v-icon>mdi-link</v-icon>
                   </v-btn>
