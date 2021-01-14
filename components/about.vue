@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title class="justify-center font-weight-bold">
-        <v-icon large color="white">mdi-account</v-icon>
+        <v-icon large color="white">$vuetify.icons.mdiAccount</v-icon>
         &nbsp; ABOUT ME
       </v-card-title>
       <v-card-text

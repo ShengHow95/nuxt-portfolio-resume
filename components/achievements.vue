@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title class="justify-center font-weight-bold">
-        <v-icon large color="white">mdi-medal</v-icon>
+        <v-icon large color="white">$vuetify.icons.mdiMedal</v-icon>
         &nbsp; ACHIEVEMENTS
       </v-card-title>
       <v-card-text>
@@ -29,7 +29,7 @@
                     :disabled="achievement.disabled"
                     rel="noreferrer"
                   >
-                    <v-icon>mdi-link</v-icon>
+                    <v-icon>$vuetify.icons.mdiLink</v-icon>
                   </v-btn>
                 </v-list-item-action>
               </v-list-item>

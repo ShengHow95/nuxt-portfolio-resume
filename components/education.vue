@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title class="justify-center font-weight-bold">
-        <v-icon large color="white">mdi-school</v-icon>
+        <v-icon large color="white">$vuetify.icons.mdiSchool</v-icon>
         &nbsp; EDUCATION
       </v-card-title>
       <v-card-text>
@@ -59,7 +59,7 @@ export default {
         course: 'Master of Data Science and Analytics',
         duration: 'Feb 2019 - Aug 2020',
         status: ['CGPA: 3.75'],
-        icon: 'mdi-star',
+        icon: '$vuetify.icons.mdiStar',
         color: 'deep-purple darken-3',
       },
       {
@@ -67,7 +67,7 @@ export default {
         course: 'Bachelor of Electrical Power Engineering',
         duration: 'Mar 2014 - Dec 2017',
         status: ['First Class Honors', 'CWA: 81.37'],
-        icon: 'mdi-star',
+        icon: '$vuetify.icons.mdiStar',
         color: 'amber darken-3',
       },
       {
@@ -75,7 +75,7 @@ export default {
         course: 'Secondary School (SPM)',
         duration: 'Jan 2008 - Dec 2012',
         status: ['8A 1B'],
-        icon: 'mdi-star',
+        icon: '$vuetify.icons.mdiStar',
         color: 'indigo darken-4',
       },
     ],

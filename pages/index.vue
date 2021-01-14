@@ -34,7 +34,7 @@
         color="primary"
         @click="toTop"
       >
-        <v-icon dark>mdi-chevron-up</v-icon>
+        <v-icon dark>$vuetify.icons.mdiChevronUp</v-icon>
       </v-btn>
     </v-fab-transition>
   </div>

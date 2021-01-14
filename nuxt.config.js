@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -14,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          "Jeff Kong Sheng How's resume website built using Nuxtjs with basic information, work experiences, educations, skills, achievements and contact information.",
+          "Jeff Kong Sheng How's resume website built using Nuxtjs with basic information, work experiences, educations, skills, certifications, achievements and contact information.",
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -52,24 +50,14 @@ export default {
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    theme: {
-      dark: true,
-      themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3,
-        },
-      },
-    },
+    defaultAssets: false,
+    optionsPath: './plugins/vuetify.options.js',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    extractCSS: true,
+  },
 
   router: {
     // eslint-disable-next-line object-shorthand
@@ -108,7 +96,7 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Roboto:100,300,400,500,700,900'],
+      families: ['Roboto:100,300,400,500,700,900&display=swap'],
     },
   },
 }

@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title class="justify-center font-weight-bold">
-        <v-icon large color="white">mdi-certificate</v-icon>
+        <v-icon large color="white">$vuetify.icons.mdiCertificate</v-icon>
         &nbsp; CERTIFICATIONS
       </v-card-title>
       <v-card-text>
@@ -22,8 +22,10 @@
                 <a
                   :href="certifications[(n - 1) * 3 + i - 1].link"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <v-img
+                    :alt="certifications[(n - 1) * 3 + i - 1].name"
                     :src="certifications[(n - 1) * 3 + i - 1].logo"
                     max-width="150"
                   ></v-img>

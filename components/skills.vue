@@ -2,7 +2,7 @@
   <v-container>
     <v-card>
       <v-card-title class="justify-center font-weight-bold">
-        <v-icon large color="white">mdi-shape</v-icon>
+        <v-icon large color="white">$vuetify.icons.mdiShape</v-icon>
         &nbsp; SKILLS
       </v-card-title>
       <v-card-text>

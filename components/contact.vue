@@ -5,8 +5,15 @@
       <v-tooltip v-for="(contact, i) in contacts" :key="i" top>
         <template v-slot:activator="{ on, attrs }">
           <span v-bind="attrs" v-on="on">
-            <v-btn fab small text :href="contact.link" target="_blank">
-              <v-icon medium color="white">{{ contact.icon }}</v-icon>
+            <v-btn
+              fab
+              large
+              text
+              :href="contact.link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <v-icon large color="white">{{ contact.icon }}</v-icon>
             </v-btn>
           </span>
         </template>
@@ -22,27 +29,27 @@ export default {
   data: () => ({
     contacts: [
       {
-        icon: 'mdi-cellphone',
+        icon: '$vuetify.icons.mdiCellphone',
         tooltip: '+(65)-8499-7879',
         link: '',
       },
       {
-        icon: 'mdi-whatsapp',
+        icon: '$vuetify.icons.mdiWhatsapp',
         tooltip: '+(60)-10773-0589',
         link: 'https://wa.me/60107730589',
       },
       {
-        icon: 'mdi-gmail',
+        icon: '$vuetify.icons.mdiGmail',
         tooltip: 'shenghow95@gmail.com',
         link: 'mailto:shenghow95@gmail.com',
       },
       {
-        icon: 'mdi-linkedin',
+        icon: '$vuetify.icons.mdiLinkedin',
         tooltip: 'https://www.linkedin.com/in/sheng-how-kong/',
         link: 'https://www.linkedin.com/in/sheng-how-kong/',
       },
       {
-        icon: 'mdi-github',
+        icon: '$vuetify.icons.mdiGithub',
         tooltip: 'https://github.com/shenghow95',
         link: 'https://github.com/shenghow95',
       },
