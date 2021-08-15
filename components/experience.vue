@@ -71,12 +71,34 @@ export default {
   data: () => ({
     experiences: [
       {
-        duration: 'Aug 2020 - Present',
+        duration: 'April 2021 - Present',
+        company: 'Axrail Private Limited',
+        logo:
+          'https://c.na65.content.force.com/servlet/servlet.ImageServer?id=0150h0000055ymIAAQ&oid=00DE0000000c48tMAA',
+        title: 'Solutions Architect',
+        descriptions: [
+          'Design Scalable and Secure Applications on AWS',
+          'Perform POC on New Technology Stacks or Designs',
+          'Develop Cloud Native Applications on AWS',
+        ],
+        skills: [
+          'Python',
+          'AWS Cloud',
+          'Reactjs',
+          'Nodejs',
+          'Git',
+          'SQL',
+          'NoSQL',
+          'Docker',
+        ],
+      },
+      {
+        duration: 'Aug 2020 - March 2021',
         company: 'Syion Private Limited',
         logo: 'https://syion.com/images/logo.png',
         title: 'Software Engineer',
         descriptions: [
-          'Develop Web Applications with Vuejs, Python and Nodejs',
+          'Develop Web Applications',
           'Solution implementation with AWS Serverless Architecture',
         ],
         skills: [

@@ -19,13 +19,13 @@
       justify="center"
       class="text-h5 white--text text-center font-weight-bold ma-5"
     >
-      Software Engineer
+      Solutions Architect
     </v-row>
     <v-row justify="center" class="ma-10">
       <v-btn
         outlined
         color="warning"
-        href="/Resume_KongShengHow_2020.12.28.pdf"
+        href="/Resume_KongShengHow_2021.08.15.pdf"
         target="_blank"
       >
         Download Resume
