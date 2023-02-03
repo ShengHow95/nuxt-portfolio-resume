@@ -8,10 +8,8 @@
       <v-card-text
         class="text-subtitle-1 text-center grey--text text--lighten-1"
       >
-        Passionate to explore and learn about technologies. Data science is a
-        field which I am interested in and would like to further explore and
-        learn more about it. I also like to join community service activities
-        and play board games.
+        Passionate to explore and learn about technologies.I also like to join
+        community service activities and play board games.
       </v-card-text>
     </v-card>
   </v-container>

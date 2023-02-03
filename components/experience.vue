@@ -10,16 +10,12 @@
           <v-timeline-item
             v-for="(experience, i) in experiences"
             :key="i"
-            color="#111111"
+            :color="experience.color"
+            :icon="experience.icon"
             fill-dot
             large
             class="mb-5"
           >
-            <template v-slot:icon>
-              <v-avatar>
-                <v-img :src="experience.logo" height="30" />
-              </v-avatar>
-            </template>
             <v-card color="#111111">
               <div class="indigo darken-2 px-5 py-2">
                 <v-row no-gutters class="text-h5 font-weight-medium py-2">
@@ -71,10 +67,28 @@ export default {
   data: () => ({
     experiences: [
       {
-        duration: 'April 2021 - Present',
+        duration: 'September 2022 - Present',
+        company: 'Horangi Cyber Security',
+        title: 'Solutions Architect',
+        descriptions: [
+          'Build Cloud Security Enterprise SaaS product',
+          'Ingest Data from Cloud Providers and Perform IAM Risk Analysis',
+        ],
+        skills: [
+          'Python',
+          'AWS Cloud',
+          'Git',
+          'SQL',
+          'DynamoDB',
+          'Neptune',
+          'Docker',
+        ],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'deep-purple darken-3',
+      },
+      {
+        duration: 'April 2021 - August 2022',
         company: 'Axrail Private Limited',
-        logo:
-          'https://c.na65.content.force.com/servlet/servlet.ImageServer?id=0150h0000055ymIAAQ&oid=00DE0000000c48tMAA',
         title: 'Solutions Architect',
         descriptions: [
           'Design Scalable and Secure Applications on AWS',
@@ -88,14 +102,16 @@ export default {
           'Nodejs',
           'Git',
           'SQL',
-          'NoSQL',
+          'DynamoDB',
+          'OpenSearch',
           'Docker',
         ],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'amber darken-3',
       },
       {
         duration: 'Aug 2020 - March 2021',
         company: 'Syion Private Limited',
-        logo: 'https://syion.com/images/logo.png',
         title: 'Software Engineer',
         descriptions: [
           'Develop Web Applications',
@@ -108,40 +124,46 @@ export default {
           'Nodejs',
           'Git',
           'SQL',
-          'NoSQL',
+          'DynamoDB',
+          'Docker',
         ],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'indigo darken-4',
       },
       {
         duration: 'Aug 2019 - Jul 2020',
         company: 'Keysight Technologies',
-        logo: 'https://companiesmarketcap.com/img/company-logos/256/KEYS.png',
         title: 'R&D Software Engineer',
         descriptions: [
           'Develop Desktop Applications using Angular & Modern C++',
           'Develop API services using gRPC',
         ],
         skills: ['C++', 'Python', 'Angular', 'gRPC', 'Agile', 'Git'],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'deep-purple darken-3',
       },
       {
         duration: 'Jan 2018 - Jul 2019',
         company: 'Keysight Technologies',
-        logo: 'https://companiesmarketcap.com/img/company-logos/256/KEYS.png',
         title: 'Test Engineer',
         descriptions: [
           'Develop Test Program using C#, VB6 and VEE Pro',
           'Automate and Modernize Test Stations',
         ],
         skills: ['C#', 'VB6', 'VEE Pro'],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'amber darken-3',
       },
       {
         duration: 'Dec 2016 - Mar 2017',
         company: 'Keysight Technologies',
-        logo: 'https://companiesmarketcap.com/img/company-logos/256/KEYS.png',
         title: 'Intern R&D Engineer',
         descriptions: [
           'Develop and Automate Test Program using VEE pro and VB.Net',
         ],
         skills: ['VEE Pro', 'VB.Net'],
+        icon: '$vuetify.icons.mdiStar',
+        color: 'indigo darken-4',
       },
     ],
   }),

@@ -62,6 +62,12 @@ export default {
           'https://www.youracclaim.com/badges/c1b820c3-b20d-4d8c-82e2-f6caedfcdff9/public_url',
       },
       {
+        name: 'AWS Certified Solution Architect – Associate',
+        logo: '/aws-certified-solutions-architect-associate.png',
+        link:
+          'https://www.youracclaim.com/badges/c1b820c3-b20d-4d8c-82e2-f6caedfcdff9/public_url',
+      },
+      {
         name: 'AWS Certified Data Analytics – Specialty',
         logo: '/aws-certified-data-analytics-specialty.png',
         link:
@@ -72,38 +78,6 @@ export default {
         logo: '/aws-certified-machine-learning-specialty.png',
         link:
           'https://www.youracclaim.com/badges/e9f0f347-4290-4b80-9339-31e17696d05c/public_url',
-      },
-      {
-        name: 'gRPC [Node.js] MasterClass',
-        logo:
-          'https://www.nicepng.com/png/full/222-2223595_udemy-logo-logo-udemy.png',
-        link:
-          'https://www.udemy.com/certificate/UC-62c27ac1-f4c6-4f6b-81b9-f779c7437281/',
-      },
-      {
-        name: 'Complete Guide to Protocol Buffer 3',
-        logo:
-          'https://www.nicepng.com/png/full/222-2223595_udemy-logo-logo-udemy.png',
-        link:
-          'https://www.udemy.com/certificate/UC-b2ddf267-fefe-47c0-992c-748fd977c337/',
-      },
-      {
-        name: 'Python for Time Series Data Analysis',
-        logo:
-          'https://www.nicepng.com/png/full/222-2223595_udemy-logo-logo-udemy.png',
-        link: 'https://www.udemy.com/certificate/UC-2RNTBERC/',
-      },
-      {
-        name: 'Machine Learning A-Z',
-        logo:
-          'https://www.nicepng.com/png/full/222-2223595_udemy-logo-logo-udemy.png',
-        link: 'https://www.udemy.com/certificate/UC-2YW9VOVV/',
-      },
-      {
-        name: 'Complete Data Science Bootcamp',
-        logo:
-          'https://www.nicepng.com/png/full/222-2223595_udemy-logo-logo-udemy.png',
-        link: 'https://www.udemy.com/certificate/UC-ON0ACKHN/',
       },
     ],
   }),

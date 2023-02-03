@@ -29,16 +29,6 @@ export default {
   data: () => ({
     contacts: [
       {
-        icon: '$vuetify.icons.mdiCellphone',
-        tooltip: '+(65)-8499-7879',
-        link: '',
-      },
-      {
-        icon: '$vuetify.icons.mdiWhatsapp',
-        tooltip: '+(60)-10773-0589',
-        link: 'https://wa.me/60107730589',
-      },
-      {
         icon: '$vuetify.icons.mdiGmail',
         tooltip: 'shenghow95@gmail.com',
         link: 'mailto:shenghow95@gmail.com',

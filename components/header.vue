@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="my-10">
     <v-row justify="center">
       <v-img
         src="profile.webp"
@@ -19,17 +19,7 @@
       justify="center"
       class="text-h5 white--text text-center font-weight-bold ma-5"
     >
-      Solutions Architect
-    </v-row>
-    <v-row justify="center" class="ma-10">
-      <v-btn
-        outlined
-        color="warning"
-        href="/Resume_KongShengHow_2021.08.15.pdf"
-        target="_blank"
-      >
-        Download Resume
-      </v-btn>
+      Backend Engineer
     </v-row>
   </div>
 </template>

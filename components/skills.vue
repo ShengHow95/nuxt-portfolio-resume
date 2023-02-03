@@ -35,20 +35,14 @@
 export default {
   data: () => ({
     skills: [
-      { name: 'Python', percent: 60 },
-      { name: 'AWS Cloud', percent: 60 },
-      { name: 'Git', percent: 60 },
-      { name: 'C++', percent: 50 },
-      { name: 'C#', percent: 50 },
-      { name: 'Nodejs', percent: 50 },
-      { name: 'Machine Learning / Deep Learning', percent: 40 },
+      { name: 'Python', percent: 80 },
+      { name: 'AWS Cloud', percent: 80 },
+      { name: 'Git', percent: 80 },
+      { name: 'SQL (PostgreSQL)', percent: 60 },
+      { name: 'NoSQL (DynamoDB, Neptune)', percent: 60 },
+      { name: 'Docker', percent: 60 },
+      { name: 'AI/ML', percent: 40 },
       { name: 'gRPC', percent: 40 },
-      { name: 'Angular / Vuejs', percent: 40 },
-      { name: 'PowerBI / Tableau', percent: 30 },
-      { name: 'SQL (MySQL, SQL Server)', percent: 30 },
-      { name: 'NoSQL (DynamoDB, Mongo)', percent: 30 },
-      { name: 'Apache PySpark', percent: 20 },
-      { name: 'Docker', percent: 20 },
     ],
   }),
   computed: {
